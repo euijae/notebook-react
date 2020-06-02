@@ -5,7 +5,9 @@ import '../../styles.css';
 const Problem = () => (
   <div class="ui grid">
     <div class="row">
-      <div class="sixteen wide column"></div>
+      <div class="sixteen wide column">
+        <img src={require('../../image/redux3.png')} alt="" className="ui large centered image"  />
+      </div>
     </div>
     <div class="row">
       <div class="two wide column"></div>
