@@ -23,7 +23,7 @@ class AddTodo extends React.Component {
         <div className="ui action input" style={{width: '100%'}}>
           <input
             type="text"
-            placeholder="Search..."
+            placeholder="What ya gonna do"
             onChange={e => this.updateInput(e.target.value)}
             value={this.state.input}
           />
