@@ -13,7 +13,7 @@ export default class TodoApp extends React.Component {
     return (
       <Menu borderless size='large'>
         <Menu.Item>
-          <img src={require('./image/download.png')} class="ui avatar image" />
+          <img src={require('./image/download.png')} alt="" className="ui avatar image" />
         </Menu.Item>
 
         <Menu.Item

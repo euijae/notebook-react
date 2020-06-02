@@ -20,7 +20,7 @@ class AddTodo extends React.Component {
   render() {
     return (
       <div>
-        <div class="ui action input" style={{width: '100%'}}>
+        <div className="ui action input" style={{width: '100%'}}>
           <input
             type="text"
             placeholder="Search..."
@@ -28,7 +28,7 @@ class AddTodo extends React.Component {
             value={this.state.input}
           />
           <button
-            class="add-todo ui primary button"
+            className="add-todo ui primary button"
             onClick={this.handleAddTodo}>
             Add Todo
           </button>
