@@ -6,7 +6,7 @@ const Reducer = () => (
   <div class="ui grid">
     <div class="row">
       <div class="sixteen wide column">
-        <img src={require('../../image/redux3.svg')} alt="" className="ui large centered image"  />
+        <img src={require('../../image/redux4.png')} alt="" className="ui large centered image"  />
       </div>
     </div>
     <div class="row">
