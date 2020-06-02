@@ -20,7 +20,7 @@ class AddTodo extends React.Component {
   render() {
     return (
       <div>
-        <div class="ui input">
+        <div class="ui action input" style={{width: '100%'}}>
           <input
             type="text"
             placeholder="Search..."

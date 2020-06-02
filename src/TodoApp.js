@@ -1,25 +1,48 @@
 import React from "react";
-import AddTodo from "./components/AddTodo";
-import TodoList from "./components/TodoList";
-import VisibilityFilters from "./components/VisibilityFilters";
-import StoreLog from './components/StoreLog';
-import "./styles.css";
+import Demo from './components/Demo';
+import Concept from './components/Concept';
+import { Menu } from 'semantic-ui-react'
 
-export default function TodoApp() {
-  return (
-    <div class="todo-app ui vertically divided grid">
-      <div class="two column row">
-        <div class="column">
-          <h1>Todo List</h1>
-          <AddTodo />
-          <VisibilityFilters />
-          <TodoList />
-        </div>
-        <div class="column">
-          <h1>Store Log</h1>
-          <StoreLog />
+export default class TodoApp extends React.Component {
+  state = { activeItem: 'concept' }
+  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+
+  showMenu() {
+    const { activeItem } = this.state;
+
+    return (
+      <Menu borderless size='large'>
+        <Menu.Item>
+          <img src={require('./image/download.png')} class="ui avatar image" />
+        </Menu.Item>
+
+        <Menu.Item
+          name='concept'
+          active={activeItem === 'concept'}
+          onClick={this.handleItemClick}
+        >
+          Concept
+        </Menu.Item>
+
+        <Menu.Item
+          name='demo'
+          active={activeItem === 'demo'}
+          onClick={this.handleItemClick}
+        >
+          Demo
+        </Menu.Item>
+      </Menu>
+    )
+  }
+
+  render() {
+    return (
+      <div>
+        {this.showMenu()}
+        <div class="todo-app ui vertically divided grid">
+          {this.state.activeItem === 'demo' ? <Demo /> : <Concept />}
         </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
