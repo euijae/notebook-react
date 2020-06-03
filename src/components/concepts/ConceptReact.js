@@ -1,6 +1,5 @@
 import React from 'react'
-import { Container, Header } from 'semantic-ui-react'
-import '../../styles.css';
+import '../../styles.css'
 
 const ConceptReact = () => (
   <div class="ui grid">
@@ -12,11 +11,11 @@ const ConceptReact = () => (
     <div class="row">
       <div class="two wide column"></div>
       <div class="twelve wide column">
-        <ol role="list" class="ui list">
-          <li role="listitem" class="listitem">
+        <ol class="ui list">
+          <li>
             Unidirectional data flow
           </li>
-          <li role="listitem" class="listitem">
+          <li>
             Data flows in one direction from parent to child.
           </li>
         </ol>
