@@ -1,3 +1,16 @@
+.notebook-column {
+  height: 100vh;
+  overflow: auto;
+}
+
+.notebook-grid {
+  margin: 0 auto;
+}
+
+
+/***************
+ * OLD VERSION *
+ ***************/
 .todo-app {
   font-family: sans-serif;
   margin: 5rem 15rem !important;
