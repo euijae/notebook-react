@@ -28,6 +28,14 @@ class Menu extends React.Component {
             <div class="ui header item" style={{color: 'white'}}>Application</div>
             <a class="item">Autocomplete</a>
             <a class="item">Spell Checker</a>
+            <a class="item">Image Processing</a>
+            <a class="item">Voice Recognition</a>
+          </div>
+          <Divider />
+          <div class="ui link list inverted">
+            <div class="ui header item" style={{color: 'white'}}>Mathematics</div>
+            <a class="item">Combinatorics</a>
+            <a class="item">Number Theory</a>
           </div>
           <Divider />
           <Footer />
