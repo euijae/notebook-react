@@ -1,3 +1,13 @@
+.black {
+  background-color: black;
+}
+
+.white-font {
+  color: white;
+}
+/***************
+ * OLD VERSION *
+ ***************/
 .todo-app {
   font-family: sans-serif;
   margin: 5rem 15rem !important;

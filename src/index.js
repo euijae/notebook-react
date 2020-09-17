@@ -4,11 +4,11 @@ import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
 import store from "./redux/store";
 
-import TodoApp from "./TodoApp";
+import Notebook from "./Notebook";
 
 ReactDOM.render(
   <Provider store={store}>
-    <TodoApp />
+    <Notebook />
   </Provider>,
   document.getElementById("root")
 );
