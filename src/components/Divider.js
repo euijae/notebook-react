@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Divider = () => (
-  <div class="ui clearing divider" />
+  <div className="ui clearing divider" />
 );
 
 export default Divider;
