@@ -4,13 +4,6 @@ import Menu from './components/Menu';
 import ContentIndex from './components/contents-index/ContentIndex';
 import './styles.css';
 
-const axios = require('axios');
-
-axios.get('https://jellybelly-apigateway.herokuapp.com/api/v1/resources/books/all')
-  .then(res => {
-    console.log(res);
-  })
-
 const styles = {
   notebookColumn: {
     height: '100vh',
