@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Menu from './components/Menu';
-import ContentIndex from './components/contents-index/ContentIndex';
+// import ContentIndex from './components/contents-index/ContentIndex';
 import './styles.css';
 
 const styles = {
@@ -32,7 +32,7 @@ class Notebook extends React.Component {
           backgroundColor: '#fafafa',
           padding: '100px 40px'
         }}>
-          <ContentIndex />
+          {/*<ContentIndex />*/}
         </div>
       </div>
     );

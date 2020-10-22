@@ -22,11 +22,14 @@ const menu = {
         clickable: false
       },
       contents: [{
-        title: "Redux",
-        clickable: true
-      }, {
+      //   title: "Cassandra",
+      //   clickable: false
+      // }, {
         title: "Python",
         clickable: true
+      }, {
+        title: "Scala",
+        clickable: false
       }]
     },
     // section 4
@@ -38,31 +41,31 @@ const menu = {
       contents: [{
         title: "Autocomplete",
         clickable: true
-      }, {
-        title: "Spell Checker",
-        clickable: true
+      // }, {
+      //   title: "Spell Checker",
+      //   clickable: false
       }, {
         title: "Image Processing",
         clickable: true
-      }, {
-        title: "Voice Recognition",
-        clickable: true
+      // }, {
+      //   title: "Voice Recognition",
+      //   clickable: false
       }]
     },
     // section 5
-    {
-      header: {
-        title: "Mathematics",
-        clickable: false
-      },
-      contents: [{
-        title: "Combinatorics",
-        clickable: true
-      }, {
-        title: "Number Theory",
-        clickable: true
-      }]
-    }
+    // {
+    //   header: {
+    //     title: "Mathematics",
+    //     clickable: false
+    //   },
+    //   contents: [{
+    //     title: "Combinatorics",
+    //     clickable: true
+    //   }, {
+    //     title: "Number Theory",
+    //     clickable: true
+    //   }]
+    // }
   ]
 };
 
