@@ -19,14 +19,14 @@ const menu = {
     {
       header: {
         title: "Language",
-        clickable: false
+        clickable: true
       },
       contents: [{
-      //   title: "Cassandra",
-      //   clickable: false
-      // }, {
         title: "Python",
         clickable: true
+      }, {
+        title: "Redux",
+        clickable: false
       }, {
         title: "Scala",
         clickable: false
@@ -41,31 +41,25 @@ const menu = {
       contents: [{
         title: "Autocomplete",
         clickable: true
-      // }, {
-      //   title: "Spell Checker",
-      //   clickable: false
       }, {
         title: "Image Processing",
         clickable: true
-      // }, {
-      //   title: "Voice Recognition",
-      //   clickable: false
       }]
     },
     // section 5
-    // {
-    //   header: {
-    //     title: "Mathematics",
-    //     clickable: false
-    //   },
-    //   contents: [{
-    //     title: "Combinatorics",
-    //     clickable: true
-    //   }, {
-    //     title: "Number Theory",
-    //     clickable: true
-    //   }]
-    // }
+    {
+      header: {
+        title: "Computer Science",
+        clickable: false
+      },
+      contents: [{
+        title: "Algorithms",
+        clickable: true
+      }, {
+        title: "Data Structures",
+        clickable: true
+      }]
+    }
   ]
 };
 
