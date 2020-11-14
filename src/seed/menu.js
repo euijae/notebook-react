@@ -1,5 +1,5 @@
 const menu = {
-  title: 'Notebook',
+  title: 'Notebooks',
   sections: [
     // section 1
     {
